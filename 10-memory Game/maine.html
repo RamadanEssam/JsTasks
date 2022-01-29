@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 20px;
+            color: white;
+            background-color: cornflowerblue;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            opacity: 0;
+            border-radius: 20%;
+
+        }
+
+        div {
+            display: inline-block;
+            background-image: url('Moon.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+        }
+
+        span {
+            font-size: 30px;
+            margin-bottom: 50px;
+            font-weight: 400;
+        }
+
+        input {
+            display: none;
+            margin: 30px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 20%;
+            background-color: tomato;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="l">Score</h1>
+    <span id="score"></span>
+    <span id="d">/60</span>
+    <br>
+    <input id="reload" type="button" value="play again" onclick="display()">
+    <br>
+
+    <div onclick="chang(this)"><img src="1.gif"></div>
+    <div onclick="chang(this)"><img src="2.gif"></div>
+    <div onclick="chang(this)"><img src="3.gif"></div>
+    <div onclick="chang(this)"><img src="4.gif"></div>
+    <br>
+    <div onclick="chang(this)"><img src="4.gif"> </div>
+    <div onclick="chang(this)"><img src="5.gif"></div>
+    <div onclick="chang(this)"><img src="6.gif"></div>
+    <div onclick="chang(this)"><img src="1.gif"></div>
+    <br>
+    <div onclick="chang(this)"><img src="6.gif"></div>
+    <div onclick="chang(this)"><img src="2.gif"></div>
+    <div onclick="chang(this)"><img src="3.gif"></div>
+    <div onclick="chang(this)"><img src="5.gif"></div>
+    <br>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

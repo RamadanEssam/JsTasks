@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            ;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body bgcolor="white" onload="timerID=setInterval('lightingMarbles()',500) ">
+    <BR><BR><BR><BR><BR>
+
+    <CENTER>
+        <TABLE>
+            <TR VALIGN="top" ALIGN="center">
+                <TD>
+                    <IMG SRC="marble1.jpg" id="1" onmouseover="clearInterval(timerID)"
+                    onmouseout="timerID=setInterval('lightingMarbles()',500)">
+
+                    <IMG SRC="marble1.jpg" id="2" onmouseover="clearInterval(timerID)"
+                    onmouseout="timerID=setInterval('lightingMarbles()',500)">
+
+                    <IMG SRC="marble1.jpg" id="3" onmouseover="clearInterval(timerID)"
+                    onmouseout="timerID=setInterval('lightingMarbles()',500)">
+
+                    <IMG SRC="marble1.jpg" id="4" onmouseover="clearInterval(timerID)"
+                    onmouseout="timerID=setInterval('lightingMarbles()',500)">
+
+                    <IMG SRC="marble1.jpg" id="5" onmouseover="clearInterval(timerID)"
+                    onmouseout="timerID=setInterval('lightingMarbles()',500)">
+                    <div id="a"></div>
+                </TD>
+            </TR>
+        </TABLE>
+
+    </CENTER>
+</body>
+</html>
